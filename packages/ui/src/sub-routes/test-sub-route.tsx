@@ -1,4 +1,10 @@
-export function Card({
+import {} from '@remix-run/runtime';
+
+export function loader(loaderArgs: LoaderArgs) {
+
+}
+
+export default function TestSubRoute({
   className,
   title,
   children,
@@ -10,7 +16,7 @@ export function Card({
   href: string;
 }): JSX.Element {
   const classes = className ? `${className} bg-indigo-500` : "bg-indigo-500";
-  
+
   return (
     <a
       className={classes}
@@ -19,7 +25,7 @@ export function Card({
       target="_blank"
     >
       <h2>
-        {title} Test card with some change <span>-&gt;</span>
+        {title} TestSubRoute card with some <span>-&gt;</span>
       </h2>
       <p>{children}</p>
     </a>

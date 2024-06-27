@@ -3,7 +3,9 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
+    "build:pa": "turbo build --filter=\"personal-assistant\"",
     "dev": "turbo dev",
+    "dev:pa": "turbo dev --filter=\"personal-assistant\"",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },

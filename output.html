@@ -1,0 +1,120 @@
+<!DOCTYPE html><html><head><link rel="icon" href="data:image/x-icon;base64,AA"/><link rel="stylesheet" href="/app/index.css"/></head><body><div class="w-48 bg-gray-800 h-full fixed"><ul class="list-none p-0"><li class="border-b border-gray-700"><a class="block text-white py-4 px-4 hover:bg-gray-600" href="/home-defer#option1">Home</a></li><li class="border-b border-gray-700"><a class="block text-white py-4 px-4 hover:bg-gray-600" href="/home-defer#option2">Compliance</a></li><li class="border-b border-gray-700"><a class="block text-white py-4 px-4 hover:bg-gray-600" href="/home-defer#option3">Tax</a></li><li class="border-b border-gray-700"><a class="block text-white py-4 px-4 hover:bg-gray-600" href="/home-defer#option4">Legal</a></li><li class="border-b border-gray-700"><a class="block text-white py-4 px-4 hover:bg-gray-600" href="/home-defer#option5">Partnerships</a></li><li class="border-b border-gray-700"><a class="block text-white py-4 px-4 hover:bg-gray-600" href="/home-defer#option6">Books</a></li></ul></div><div class="ml-48 p-8"><!--$--><h1>Hello from the deferred loader!</h1><!--/$--><!--$--><h1>5</h1><!--/$--><div><h2>Tasks</h2><ul><li>Task 1</li><li>Task 2</li><li>Task 3</li></ul></div></div><link rel="modulepreload" href="/@id/__x00__virtual:remix/browser-manifest"/><link rel="modulepreload" href="/@fs/Users/skanneganti/repos/personal-assistant-turbo/node_modules/.pnpm/@remix-run+dev@2.8.1_@types+node@20.10.3_vite@5.2.10/node_modules/@remix-run/dev/dist/config/defaults/entry.client.tsx"/><link rel="modulepreload" href="/app/root.tsx?client-route=1"/><link rel="modulepreload" href="/app/routes/home-defer.tsx?client-route=1"/><script>window.__remixContext = {"url":"/home-defer","basename":"/","state":{"loaderData":{"routes/home-defer":{"message":{},"ordersInfo":{},"tasks":[{"id":1,"title":"Task 1"},{"id":2,"title":"Task 2"},{"id":3,"title":"Task 3"}]},"root":null},"actionData":null,"errors":null},"future":{"v3_fetcherPersist":false,"v3_relativeSplatPath":false,"v3_throwAbortReason":false},"isSpaMode":false};__remixContext.p = function(v,e,p,x) {
+  if (typeof e !== 'undefined') {
+    x=new Error(e.message);
+    x.stack=e.stack;
+    p=Promise.reject(x);
+  } else {
+    p=Promise.resolve(v);
+  }
+  return p;
+};
+__remixContext.n = function(i,k) {
+  __remixContext.t = __remixContext.t || {};
+  __remixContext.t[i] = __remixContext.t[i] || {};
+  let p = new Promise((r, e) => {__remixContext.t[i][k] = {r:(v)=>{r(v);},e:(v)=>{e(v);}};});
+setTimeout(() => {if(typeof p._error !== "undefined" || typeof p._data !== "undefined"){return;} __remixContext.t[i][k].e(new Error("Server timeout."))}, 5000);
+  return p;
+};
+__remixContext.r = function(i,k,v,e,p,x) {
+  p = __remixContext.t[i][k];
+  if (typeof e !== 'undefined') {
+    x=new Error(e.message);
+    x.stack=e.stack;
+    p.e(x);
+  } else {
+    p.r(v);
+  }
+};Object.assign(__remixContext.state.loaderData["routes/home-defer"], {"message":__remixContext.n("routes/home-defer", "message"),
+"ordersInfo":__remixContext.n("routes/home-defer", "ordersInfo")});__remixContext.a=2;</script><script type="module" async="">import "/@id/__x00__virtual:remix/inject-hmr-runtime";import "/@id/__x00__virtual:remix/browser-manifest";
+import * as route0 from "/app/root.tsx?client-route=1";
+import * as route1 from "/app/routes/home-defer.tsx?client-route=1";
+window.__remixRouteModules = {"root":route0,"routes/home-defer":route1};
+
+import("/@fs/Users/skanneganti/repos/personal-assistant-turbo/node_modules/.pnpm/@remix-run+dev@2.8.1_@types+node@20.10.3_vite@5.2.10/node_modules/@remix-run/dev/dist/config/defaults/entry.client.tsx");</script><!--$--><script async="">__remixContext.r("routes/home-defer", "message", "Hello from the deferred loader!")</script><!--/$--><!--$--><script async="">__remixContext.r("routes/home-defer", "ordersInfo", {"orderCount":5})</script><!--/$--><script>
+                function remixLiveReloadConnect(config) {
+                  let LIVE_RELOAD_ORIGIN = undefined;
+                  let protocol =
+                    LIVE_RELOAD_ORIGIN ? new URL(LIVE_RELOAD_ORIGIN).protocol.replace(/^http/, "ws") :
+                    location.protocol === "https:" ? "wss:" : "ws:"; // remove in v2?
+                  let hostname = LIVE_RELOAD_ORIGIN ? new URL(LIVE_RELOAD_ORIGIN).hostname : location.hostname;
+                  let url = new URL(protocol + "//" + hostname + "/socket");
+
+                  url.port =
+                    undefined ||
+                    (LIVE_RELOAD_ORIGIN ? new URL(LIVE_RELOAD_ORIGIN).port : 8002);
+
+                  let ws = new WebSocket(url.href);
+                  ws.onmessage = async (message) => {
+                    let event = JSON.parse(message.data);
+                    if (event.type === "LOG") {
+                      console.log(event.message);
+                    }
+                    if (event.type === "RELOAD") {
+                      console.log("💿 Reloading window ...");
+                      window.location.reload();
+                    }
+                    if (event.type === "HMR") {
+                      if (!window.__hmr__ || !window.__hmr__.contexts) {
+                        console.log("💿 [HMR] No HMR context, reloading window ...");
+                        window.location.reload();
+                        return;
+                      }
+                      if (!event.updates || !event.updates.length) return;
+                      let updateAccepted = false;
+                      let needsRevalidation = new Set();
+                      for (let update of event.updates) {
+                        console.log("[HMR] " + update.reason + " [" + update.id +"]")
+                        if (update.revalidate) {
+                          needsRevalidation.add(update.routeId);
+                          console.log("[HMR] Revalidating [" + update.routeId + "]");
+                        }
+                        let imported = await import(update.url +  '?t=' + event.assetsManifest.hmr.timestamp);
+                        if (window.__hmr__.contexts[update.id]) {
+                          let accepted = window.__hmr__.contexts[update.id].emit(
+                            imported
+                          );
+                          if (accepted) {
+                            console.log("[HMR] Update accepted by", update.id);
+                            updateAccepted = true;
+                          }
+                        }
+                      }
+                      if (event.assetsManifest && window.__hmr__.contexts["remix:manifest"]) {
+                        let accepted = window.__hmr__.contexts["remix:manifest"].emit(
+                          { needsRevalidation, assetsManifest: event.assetsManifest }
+                        );
+                        if (accepted) {
+                          console.log("[HMR] Update accepted by", "remix:manifest");
+                          updateAccepted = true;
+                        }
+                      }
+                      if (!updateAccepted) {
+                        console.log("[HMR] Update rejected, reloading...");
+                        window.location.reload();
+                      }
+                    }
+                  };
+                  ws.onopen = () => {
+                    if (config && typeof config.onOpen === "function") {
+                      config.onOpen();
+                    }
+                  };
+                  ws.onclose = (event) => {
+                    if (event.code === 1006) {
+                      console.log("Remix dev asset server web socket closed. Reconnecting...");
+                      setTimeout(
+                        () =>
+                          remixLiveReloadConnect({
+                            onOpen: () => window.location.reload(),
+                          }),
+                      1000
+                      );
+                    }
+                  };
+                  ws.onerror = (error) => {
+                    console.log("Remix dev asset server web socket error:");
+                    console.error(error);
+                  };
+                }
+                remixLiveReloadConnect();
+              </script></body></html>
