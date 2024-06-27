@@ -1,0 +1,577 @@
+{
+  "accountId": "3fdd53cc-caad-45da-83ca-4d6a854b9943",
+  "accountName": "",
+  "accountType": "BUSINESS",
+  "processingOrderId": 513898469,
+  "orderStatus": {
+    "product": "Pro LLC",
+    "name": "ChecklistTest6",
+    "entityId": 2448437,
+    "entityName": "ChecklistTest6",
+    "ein": "",
+    "orcos": [],
+    "resolutions": [],
+    "orderId": 35107528,
+    "orderItemId": 70967205,
+    "processingOrderId": 513898469,
+    "productLine": 1,
+    "process": 2,
+    "isQuestionnaireComplete": true,
+    "questionnaireCompletedOn": "2024-02-22T14:07:00.000Z",
+    "isDocumentsReady": false,
+    "isShipped": false,
+    "shippingTracking": null,
+    "shippingCarrier": null,
+    "orderFulfilledOn": null,
+    "paymentStatus": 2,
+    "isCancelled": false,
+    "productComponentId": 2991,
+    "isExpedited": false,
+    "stateName": "California",
+    "processingSteps": [
+      {
+        "processingCategoryId": 6,
+        "processingStatusId": null,
+        "orderIndex": 1,
+        "stepName": "Order received",
+        "estimateDate": null,
+        "actualDate": "2024-02-22T14:07:00.000Z",
+        "categoryDescription": "We'll take it from here",
+        "statusShortDescription": null,
+        "statusLongDescription": null,
+        "status": "completed",
+        "actions": []
+      },
+      {
+        "processingCategoryId": 7,
+        "processingStatusId": null,
+        "orderIndex": 2,
+        "stepName": "LegalZoom processing",
+        "estimateDate": null,
+        "actualDate": null,
+        "categoryDescription": "We'll prep your paperwork before we send it to the state.",
+        "statusShortDescription": null,
+        "statusLongDescription": null,
+        "status": "completed",
+        "actions": []
+      },
+      {
+        "processingCategoryId": 8,
+        "processingStatusId": 80,
+        "orderIndex": 3,
+        "stepName": "State processing",
+        "estimateDate": null,
+        "actualDate": null,
+        "categoryDescription": "We'll wait for your state to make your LLC official, and mail us back your completed documents.",
+        "statusShortDescription": "The state is reviewing your documents",
+        "statusLongDescription": "We filed your documents with the Secretary of State and are waiting for approval. State processing times can range from several days up to a few weeks. If there are any issues, we'll reach out.",
+        "status": "active",
+        "actions": []
+      },
+      {
+        "processingCategoryId": 9,
+        "processingStatusId": null,
+        "orderIndex": 4,
+        "stepName": "Finalizing paperwork",
+        "estimateDate": null,
+        "actualDate": null,
+        "categoryDescription": "We'll triple-check your completed docs. If an issue comes up, we'll get in touch.",
+        "statusShortDescription": null,
+        "statusLongDescription": null,
+        "status": "pending",
+        "actions": []
+      },
+      {
+        "processingCategoryId": 205,
+        "processingStatusId": null,
+        "orderIndex": 5,
+        "stepName": "LLC complete",
+        "estimateDate": "2024-03-07T14:15:19.570Z",
+        "actualDate": null,
+        "categoryDescription": "We'll upload your docs to the Document Center.",
+        "statusShortDescription": null,
+        "statusLongDescription": null,
+        "status": "pending",
+        "actions": []
+      }
+    ]
+  },
+  "BASE_URL": "https://wwwdev.legalzoom.com",
+  "criticalAlerts": [],
+  "virtualMailCriticalAlerts": [],
+  "forYous": [
+    {
+      "id": "3cae06bb-868f-4f28-a336-620dfd3cf9ae",
+      "owner": "Partnerships",
+      "name": "BusinessWebsite",
+      "title": "Create your free business website",
+      "subTitle": "Expand your online presence to establish trust and brand visibility with Wix.",
+      "ctaLabel": "Get started",
+      "ctaTarget": "internal",
+      "ctaUrl": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/website/wix",
+      "dismissible": true,
+      "metadata": {},
+      "dismissed": false,
+      "included": true
+    },
+    {
+      "id": "2b673908-2a9d-4c30-9802-85c50f30bc3f",
+      "owner": "Legal",
+      "name": "DocAssist",
+      "title": "Summarize your document",
+      "subTitle": "Save time and review your legal contracts on your own with our free document summarizing service, powered by AI.",
+      "ctaLabel": "Learn more",
+      "ctaTarget": "internal",
+      "ctaUrl": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/legal",
+      "dismissible": true,
+      "metadata": {},
+      "dismissed": false,
+      "included": false
+    },
+    {
+      "id": "9edb9492-2d0a-4984-afef-b581dab3b8d7",
+      "owner": "Books",
+      "name": "StartBooks",
+      "title": "Get started running your business",
+      "subTitle": "Start your free trial to book projects, get paid, and manage your finances",
+      "ctaLabel": "Learn more",
+      "ctaTarget": "internal",
+      "ctaUrl": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/books",
+      "dismissible": true,
+      "metadata": {},
+      "dismissed": false,
+      "included": false
+    },
+    {
+      "id": "e153230c-5315-4e2e-b9fd-acb8b232adf0",
+      "owner": "Partnerships",
+      "name": "POSStart",
+      "title": "Set up your payment solution",
+      "subTitle": "Accept payments anywhere with Square and save with our special startup offer.",
+      "ctaLabel": "Learn more",
+      "ctaTarget": "internal",
+      "ctaUrl": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/pointOfSale/square",
+      "dismissible": true,
+      "metadata": {},
+      "dismissed": false,
+      "included": false
+    },
+    {
+      "id": "b977974e-23a5-4f5e-83c8-ea252e823054",
+      "owner": "Partnerships",
+      "name": "BusinessEmail",
+      "title": "Get your business email address",
+      "subTitle": "Create your custom business email and seamlessly collaborate with Google's tools.",
+      "ctaLabel": "Get started",
+      "ctaTarget": "internal",
+      "ctaUrl": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/workspace/google",
+      "dismissible": true,
+      "metadata": {},
+      "dismissed": false,
+      "included": false
+    },
+    {
+      "id": "",
+      "owner": "Tax",
+      "name": "BuyTax",
+      "title": "We're here to help with taxes",
+      "subTitle": "We can prepare your small business taxes. Learn about our tax plans.",
+      "ctaLabel": "Learn more",
+      "ctaUrl": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/tax/",
+      "ctaTarget": "_self",
+      "dismissible": true
+    }
+  ],
+  "activityFeed": [
+    {
+      "activityFeedDate": "2024-02-22T22:20:13.303910049Z",
+      "feed": [
+        {
+          "id": "e7d72e33-df0f-49d9-9110-f3378ca04e80",
+          "ctaLabel": null,
+          "ctaTarget": null,
+          "description": "We submitted your LLC docs to the state",
+          "iconType": "home",
+          "domain": "fulfillment",
+          "type": "FULFILLMENT:SENT_TO_SOS",
+          "taxEvent": false
+        },
+        {
+          "id": "3ced1842-a10c-44a5-9742-975963b09da1",
+          "ctaLabel": "Get Started",
+          "ctaTarget": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/books",
+          "description": "Your formation came with a free trial of LZ Books",
+          "iconType": "home",
+          "domain": "order",
+          "type": "ORDER:CHECKOUT_COMPLETED",
+          "taxEvent": false
+        },
+        {
+          "id": "648e4245-db2f-4f49-8f2a-c90c4aa6916f",
+          "ctaLabel": "View orders",
+          "ctaTarget": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/orders",
+          "description": "You purchased LLC Pro Package (Order #35107528)",
+          "iconType": "home",
+          "domain": "order",
+          "type": "ORDER:CHECKOUT_COMPLETED",
+          "taxEvent": false
+        }
+      ]
+    }
+  ],
+  "hasBapEntitlement": false,
+  "selfServeData": {
+    "orco": null,
+    "processSteps": [
+      {
+        "processingCategoryId": 6,
+        "processingStatusId": null,
+        "orderIndex": 1,
+        "stepName": "Order received",
+        "estimateDate": null,
+        "actualDate": "2024-02-22T14:07:00.000Z",
+        "categoryDescription": "We'll take it from here",
+        "statusShortDescription": null,
+        "statusLongDescription": null,
+        "status": "completed",
+        "actions": []
+      },
+      {
+        "processingCategoryId": 7,
+        "processingStatusId": null,
+        "orderIndex": 2,
+        "stepName": "LegalZoom processing",
+        "estimateDate": null,
+        "actualDate": null,
+        "categoryDescription": "We'll prep your paperwork before we send it to the state.",
+        "statusShortDescription": null,
+        "statusLongDescription": null,
+        "status": "completed",
+        "actions": []
+      },
+      {
+        "processingCategoryId": 8,
+        "processingStatusId": 80,
+        "orderIndex": 3,
+        "stepName": "State processing",
+        "estimateDate": null,
+        "actualDate": null,
+        "categoryDescription": "We'll wait for your state to make your LLC official, and mail us back your completed documents.",
+        "statusShortDescription": "The state is reviewing your documents",
+        "statusLongDescription": "We filed your documents with the Secretary of State and are waiting for approval. State processing times can range from several days up to a few weeks. If there are any issues, we'll reach out.",
+        "status": "active",
+        "actions": []
+      },
+      {
+        "processingCategoryId": 9,
+        "processingStatusId": null,
+        "orderIndex": 4,
+        "stepName": "Finalizing paperwork",
+        "estimateDate": null,
+        "actualDate": null,
+        "categoryDescription": "We'll triple-check your completed docs. If an issue comes up, we'll get in touch.",
+        "statusShortDescription": null,
+        "statusLongDescription": null,
+        "status": "pending",
+        "actions": []
+      },
+      {
+        "processingCategoryId": 205,
+        "processingStatusId": null,
+        "orderIndex": 5,
+        "stepName": "LLC complete",
+        "estimateDate": "2024-03-07T14:15:19.570Z",
+        "actualDate": null,
+        "categoryDescription": "We'll upload your docs to the Document Center.",
+        "statusShortDescription": null,
+        "statusLongDescription": null,
+        "status": "pending",
+        "actions": []
+      }
+    ],
+    "isOrco": true,
+    "reasonId": "",
+    "uploadDocument": null,
+    "linkedDocument": null
+  },
+  "isOrderStatusOrco": false,
+  "filteredOrderItemList": [
+    {
+      "entityType": "LLC",
+      "processSteps": [
+        {
+          "processingCategoryId": 6,
+          "processingStatusId": null,
+          "orderIndex": 1,
+          "stepName": "Order received",
+          "estimateDate": null,
+          "actualDate": "2024-02-22T14:07:00.000Z",
+          "categoryDescription": "We'll take it from here",
+          "statusShortDescription": null,
+          "statusLongDescription": null,
+          "status": "completed",
+          "actions": []
+        },
+        {
+          "processingCategoryId": 7,
+          "processingStatusId": null,
+          "orderIndex": 2,
+          "stepName": "LegalZoom processing",
+          "estimateDate": null,
+          "actualDate": null,
+          "categoryDescription": "We'll prep your paperwork before we send it to the state.",
+          "statusShortDescription": null,
+          "statusLongDescription": null,
+          "status": "completed",
+          "actions": []
+        },
+        {
+          "processingCategoryId": 8,
+          "processingStatusId": 80,
+          "orderIndex": 3,
+          "stepName": "State processing",
+          "estimateDate": null,
+          "actualDate": null,
+          "categoryDescription": "We'll wait for your state to make your LLC official, and mail us back your completed documents.",
+          "statusShortDescription": "The state is reviewing your documents",
+          "statusLongDescription": "We filed your documents with the Secretary of State and are waiting for approval. State processing times can range from several days up to a few weeks. If there are any issues, we'll reach out.",
+          "status": "active",
+          "actions": []
+        },
+        {
+          "processingCategoryId": 9,
+          "processingStatusId": null,
+          "orderIndex": 4,
+          "stepName": "Finalizing paperwork",
+          "estimateDate": null,
+          "actualDate": null,
+          "categoryDescription": "We'll triple-check your completed docs. If an issue comes up, we'll get in touch.",
+          "statusShortDescription": null,
+          "statusLongDescription": null,
+          "status": "pending",
+          "actions": []
+        },
+        {
+          "processingCategoryId": 205,
+          "processingStatusId": null,
+          "orderIndex": 5,
+          "stepName": "LLC complete",
+          "estimateDate": "2024-03-07T14:15:19.570Z",
+          "actualDate": null,
+          "categoryDescription": "We'll upload your docs to the Document Center.",
+          "statusShortDescription": null,
+          "statusLongDescription": null,
+          "status": "pending",
+          "actions": []
+        }
+      ],
+      "icon": "llc",
+      "orderNumber": 35107528,
+      "isExpedited": false
+    }
+  ],
+  "showSpotlightTracker": true,
+  "canSmsOptIn": true,
+  "enableWidgetsV2": false,
+  "widgets": [],
+  "businessProfile": {
+    "formationDate": null,
+    "ein": null,
+    "formationState": "CA",
+    "stateCode": null,
+    "companyType": "LLC",
+    "name": "ChecklistTest6 LLC",
+    "sosCompany": null,
+    "updatedBySOS": false,
+    "naicsCodes": [
+      {
+        "naicsCode": "450000"
+      }
+    ]
+  },
+  "showBusinessProfileSnapshot": false,
+  "showBOIRBanner": false,
+  "hasComplianceTasks": true,
+  "canShowComplianceTaskList": true,
+  "complianceTasks": [
+    {
+      "id": 10236,
+      "accountId": "3fdd53cc-caad-45da-83ca-4d6a854b9943",
+      "name": "BOIR",
+      "state": "NOT_STARTED",
+      "domain": "COMPLIANCE",
+      "group": "FORMATION",
+      "createdAt": "2024-02-22T22:00:56.860Z",
+      "dueAt": null,
+      "isEntitled": false,
+      "order": null,
+      "label": "File your Beneficial Ownership Information Report",
+      "href": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/compliance#plan=beneficialOwnershipReport",
+      "subLabel": "It's a federal requirement to provide information about who owns or controls your business."
+    },
+    {
+      "id": 10232,
+      "accountId": "3fdd53cc-caad-45da-83ca-4d6a854b9943",
+      "name": "BUSINESS_LICENSES",
+      "state": "NOT_STARTED",
+      "domain": "COMPLIANCE",
+      "group": "FORMATION",
+      "createdAt": "2024-02-22T22:00:56.860Z",
+      "dueAt": null,
+      "isEntitled": true,
+      "order": {
+        "id": 35107528,
+        "filedAt": null,
+        "productComponentId": 493
+      },
+      "label": "Secure your business licenses and permits",
+      "href": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/compliance#plan=bl",
+      "subLabel": "Get the required licenses, permits, and registrations to operate legally."
+    },
+    {
+      "id": 10230,
+      "accountId": "3fdd53cc-caad-45da-83ca-4d6a854b9943",
+      "name": "BANK_ACCOUNT",
+      "state": "NOT_STARTED",
+      "domain": "PARTNERSHIPS",
+      "group": "FORMATION",
+      "createdAt": "2024-02-22T22:00:56.860Z",
+      "dueAt": null,
+      "isEntitled": true,
+      "order": null,
+      "label": "Open your business bank account",
+      "href": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/banking/comparison",
+      "subLabel": "After obtaining your EIN, open a business bank account to separate your personal and business transactions."
+    },
+    {
+      "id": null,
+      "accountId": "3fdd53cc-caad-45da-83ca-4d6a854b9943",
+      "name": "INSURANCE",
+      "state": "NOT_STARTED",
+      "domain": "PARTNERSHIPS",
+      "group": "FORMATION",
+      "createdAt": null,
+      "dueAt": null,
+      "isEntitled": true,
+      "order": null,
+      "label": "Obtain insurance for your retail business",
+      "href": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/insurance/next",
+      "subLabel": "Ensure your business has the adequate protection it needs with our insurance partner, NEXT"
+    },
+    {
+      "id": 10233,
+      "accountId": "3fdd53cc-caad-45da-83ca-4d6a854b9943",
+      "name": "EIN",
+      "state": "LZ_PROCESSING",
+      "domain": "COMPLIANCE",
+      "group": "FORMATION",
+      "createdAt": "2024-02-22T22:00:56.860Z",
+      "dueAt": null,
+      "isEntitled": true,
+      "order": {
+        "id": 35107528,
+        "filedAt": null,
+        "productComponentId": 553
+      },
+      "label": "Get your EIN (Federal Tax ID)",
+      "href": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/compliance#plan=EIN",
+      "subLabel": "You may need an EIN to file taxes, hire employees, open bank accounts, and file a Beneficial Ownership Info Report."
+    },
+    {
+      "id": 10231,
+      "accountId": "3fdd53cc-caad-45da-83ca-4d6a854b9943",
+      "name": "OPERATING_AGREEMENT",
+      "state": "LZ_PROCESSING",
+      "domain": "COMPLIANCE",
+      "group": "FORMATION",
+      "createdAt": "2024-02-22T22:00:56.860Z",
+      "dueAt": null,
+      "isEntitled": true,
+      "order": {
+        "id": 35107528,
+        "filedAt": null,
+        "productComponentId": 2995
+      },
+      "label": "Create an operating agreement",
+      "href": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/compliance#plan=operatingAgreement",
+      "subLabel": "Set up formal business rules to make sure you protect assets, avoid disputes, and meet state requirements."
+    },
+    {
+      "id": 10234,
+      "accountId": "3fdd53cc-caad-45da-83ca-4d6a854b9943",
+      "name": "INITIAL_REPORT",
+      "state": "LZ_PROCESSING",
+      "domain": "COMPLIANCE",
+      "group": "FORMATION",
+      "createdAt": "2024-02-22T22:00:56.860Z",
+      "dueAt": null,
+      "isEntitled": true,
+      "order": {
+        "id": 35107528,
+        "filedAt": null,
+        "productComponentId": 3073
+      },
+      "label": "File your initial report",
+      "href": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/compliance#plan=initialReport",
+      "subLabel": "This report keeps your business information up to date with your state."
+    },
+    {
+      "id": 10235,
+      "accountId": "3fdd53cc-caad-45da-83ca-4d6a854b9943",
+      "name": "REGISTERED_AGENT",
+      "state": "COMPLETE",
+      "domain": "COMPLIANCE",
+      "group": "FORMATION",
+      "createdAt": "2024-02-22T22:00:56.860Z",
+      "dueAt": null,
+      "isEntitled": false,
+      "order": null,
+      "label": "Appoint a registered agent",
+      "href": "/my/account/3fdd53cc-caad-45da-83ca-4d6a854b9943/compliance#plan=registeredAgent",
+      "subLabel": ""
+    }
+  ],
+  "booksCompany": null,
+  "virtualMailWidgetBasicData": {
+    "account": null,
+    "applicant": null
+  },
+  "simpleEntitlements": [
+    {
+      "name": "STORAGE",
+      "metaData": {
+        "isHistorical": "false",
+        "subscriptionId": 3527244,
+        "orderId": 35107528
+      }
+    },
+    {
+      "name": "LEGAL_FORMS",
+      "metaData": {
+        "isHistorical": "false",
+        "subscriptionId": 3527246,
+        "orderId": 35107528
+      }
+    },
+    {
+      "name": "UNLIMITED_ESIGN",
+      "metaData": {
+        "isHistorical": "false",
+        "subscriptionId": 3527247,
+        "orderId": 35107528
+      }
+    },
+    {
+      "name": "COMPLIANCE_CALENDAR",
+      "metaData": {
+        "isHistorical": "false",
+        "subscriptionId": 3527248,
+        "orderId": 35107528
+      }
+    }
+  ],
+  "complianceBundleExperiment": "Variant",
+  "enableOrderStatusV2Tracker": false,
+  "enableOrderStatusV2FTUX": false,
+  "isBusinessWorkspace": true
+}
